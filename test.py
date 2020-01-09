@@ -12,13 +12,13 @@ browser.get('https://mail.google.com/mail/u/0/#inbox')
 
 # Nhập username
 userElem = browser.find_element_by_id('identifierId')
-userElem.send_keys('sadandboujee4474@gmail.com')
+userElem.send_keys('Your user name of gmail here')
 userElem.send_keys(Keys.ENTER)
 time.sleep(2)  # Đợi browser load sang trang password
 
 # Nhập password
 passElem = browser.find_element_by_name('password')
-passElem.send_keys('elpsycongroo')
+passElem.send_keys('Your password of gmail here')
 passElem.send_keys(Keys.ENTER)
 time.sleep(7)  # Đơi browser load sang trang chính của gmail.
 # time.sleep() giúp dừng hẳng chương trình để đợi browser load xong file HTML mới
